@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="css/header.css">
+  <link rel="stylesheet" href="css/paginas.css">
+  <link rel="stylesheet" href="css/carrossel.css">
+  <link rel="stylesheet" href="css/form.css">
+  <link rel="stylesheet" href="css/apoio.css">
+  <link rel="stylesheet" href="css/footer.css">
+
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/solid.css"/>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/fontawesome.css"/>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+  <title>Torneio de Vôlei</title>
+
+</head>
+<body>
+  <header>
+    <a href="#Inicio" class="logo-container">
+      <img src="assets/benjamin-voros-xhC8IzemTGU-unsplash.jpg" alt="foto da bola" class="logo"/>
+      <p>Torneio de Vôlei Lima Verde</p>
+    </a>
+
+    <nav class="navbar">
+      <ul>
+        <li><a href="#Sobre">Sobre</a></li>
+        <li><a href="#Categorias">Categorias</a></li>
+        <li><a href="#Inscricao">Inscrever-se</a></li>
+        <li><a href="#Apoio">Apoio</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="apresentacao" id="Inicio">
+    <h1>Torneio de Vôlei</h1>
+    <p>Residencial Lima Verde</p>
+    <p>Sáb - 10/10 - 17:00</p>
+  </section>
+
+  <section class="sobre" id="Sobre">
+    <h1>Sobre o torneio</h1>
+    
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet impedit dolore ex non aliquid. Non molestiae repellat enim, aut eveniet officia laboriosam. Qui, quo. Exercitationem nam possimus corrupti nisi voluptates. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus quos enim in asperiores amet saepe, eius dolorem ipsum est repellat omnis repellendus quasi blanditiis. Alias sint vel corrupti illo iure?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed aliquid quibusdam earum a nemo, officiis hic vel, aperiam quidem itaque ipsa praesentium doloribus. Cumque in, unde corporis rerum vero inventore?</p>
+
+    <div class="conteudo-sobre">
+      <div class="box-sobre">
+        <h2>Quando começou?</h2>
+
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa rerum voluptate accusamus veritatis debitis, neque cum porro quo perspiciatis! Expedita iste vel libero aperiam rerum non deserunt recusandae. Vitae, sint!</p>
+      </div>
+
+      <div class="box-sobre">
+        <h2>Como começou?</h2>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, ea iusto. Voluptate cupiditate atque nostrum, quia, tenetur ab vero sapiente dignissimos natus illum unde sint fugit repellendus. Officiis, esse animi.</p>
+      </div>
+    </div>
+  </section>
+
+  <div class="carrossel-content" id="Categorias">
+    <h1>Categorias</h1>
+
+    <div class="carrossel">
+      <div class="carrossel-track">
+        <div class="carrossel-slide">
+          <img src="assets/steven-abraham-WYJNl4D-H7Y-unsplash.jpg" alt="imagem 1">
+          <div class="slide-content">
+            <h1>Iniciante</h1>
+          </div>
+        </div>
+        
+        <div class="carrossel-slide">
+          <img src="assets/jannes-glas-0NaQQsLWLkA-unsplash.jpg" alt="imagem 2">
+          <div class="slide-content">
+            <h1>Intermediário</h1>
+          </div>
+        </div>
+        
+        <div class="carrossel-slide">
+          <img src="assets/ildar-garifullin-UPjZWkyZ6aw-unsplash.jpg" alt="imagem 3">
+          <div class="slide-content">
+            <h1>Avançado</h1>
+          </div>
+        </div>
+      </div>
+
+      <i class="fas fa-arrow-left carrossel-btn prev"></i>
+      <i class="fas fa-arrow-right carrossel-btn next"></i>
+
+      <div class="carrossel-dots">
+        <span class="dot active"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+      </div>
+    </div>
+  </div>
+
+  <section class="inscricao-container" id="Inscricao">
+    <h1>Gostou? Inscreva-se já</h1>
+
+    <form class="form-container">
+      <div class="left">
+        <label for="nome">Nome</label>
+        <input type="text" name="nome" id="nome" placeholder="Nome Completo">
+
+        <label for="phone">Telefone</label>
+        <input type="tel" name="telefone" id="phone" placeholder="(99) 99999-9999">
+      </div>
+
+      <div class="right">
+        <label for="uf">UF</label>
+        <input type="text" name="uf" id="uf" placeholder="UF" maxlength="2"">
+
+        <label for="cidade">Cidade</label>
+        <input type="text" name="cidade" id="cidade" placeholder="Sim">
+      </div>
+    </form>
+
+    <div class="maisumavezselect">
+      <label for="categoria-select">Categoria</label>
+      
+      <select name="categoria" id="categoria-select" class="select-categoria">
+        <option value="iniciante">Iniciante</option>
+        <option value="intermediaria">intermediário</option>
+        <option value="avancado">Avançado</option>
+      </select>
+    </div>
+    
+    <a href="https://youtu.be/ncOT_y7Yaqs?si=Pxga03BTKKa6g_-y" target="_blank">
+      <button class="btn">
+        Submeter
+      </button>
+    </a>
+  </section>
+
+  <section class="apoio-container" id="Apoio">
+    <h1>Apoio</h1>
+
+    <div class="apoiadores">
+      <img src="assets/prefeiturapaco.png" alt="logo prefeitura" class="apoio-imagem">
+      <img src="assets/logoufma-removebg-preview.png" alt="logo ufma">
+      <img src="assets/logopet-removebg-preview.png" alt="logo pet" class="apoio-imagem">
+    </div>
+  </section>
+
+  <footer>
+    <div class="meus-links">
+      <h3>Links úteis</h3>
+
+      <div class="links-container">
+        <a href="https://github.com/luiskeyd" class="icon-link" target="_blank">
+          <p>Github</p>
+          <img src="assets/icons8-github.svg" alt="ícone github">
+        </a>
+
+        <a href="https://www.linkedin.com/in/luis-fonseca-537818300" class="icon-link" target="_blank">
+          <p>Linkedin</p>
+          <img src="assets/icons8-linkedin.svg" alt="ícone linkedin">
+        </a>
+      </div>
+    </div>
+
+    <div class="links-inventados">
+      <h3>Contatos</h3>
+
+      <h3>torneiolimaverde@gmail.com</h2>
+      <h3>prefeitura@gmail.com</h3>
+      <h3>associacaodosmoradores@gmail.com</h3>
+    </div>
+  </footer>
+
+  <script src="js/carrossel.js"></script>
+</body>
+</html>

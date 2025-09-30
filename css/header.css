@@ -1,0 +1,76 @@
+:root {
+  --cor-primaria: #0057A0;
+  --cor-secundaria: #FFD23F;
+  --cor-terciaria: #F25C05;
+  --cor-hover: #003F73;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Bebas Neue", sans-serif;
+  margin-top: 70px;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: baseline;
+  background-color: var(--cor-primaria);
+  padding: 15px 30px;
+  gap: 20px;
+  font-size: 30px;
+  z-index: 1000;
+}
+
+.logo-container {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.logo-container:hover {
+  opacity: 0.8;
+}
+
+.logo {
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  align-items: baseline;
+  gap: 30px;
+}
+
+.navbar ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  padding: 8px 12px;
+  transition: background-color 0.3s;
+}
+
+.navbar ul li a:hover {
+  background-color: var(--cor-hover);
+}
