@@ -39,6 +39,7 @@
   font-family: "Roboto Condensed", sans-serif;
 }
 
+/* esse flex: 1 vai dividir igualmente o espaço com quem também tem flex 1 */
 .box-sobre {
   flex: 1;
   background: #f5f5f5;

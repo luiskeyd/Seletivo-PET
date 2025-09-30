@@ -44,6 +44,7 @@
   text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.7);
 }
 
+/* o z-index vai garantir que ele fique posicionado acima de quem tem z-index menor que isso */
 .carrossel-btn {
   position: absolute;
   top: 50%;
@@ -57,6 +58,7 @@
   z-index: 2;
   border-radius: 50%;
   user-select: none;
+  /* se o usuario der missclick nos botões não vai acontecer nada por conta dessa propriedade */
 }
 
 .prev {

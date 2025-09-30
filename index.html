@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+  <!-- Escolhi criar páginas separadas pra não ficar um arquivo enorme de css -->
   <link rel="stylesheet" href="css/header.css">
   <link rel="stylesheet" href="css/paginas.css">
   <link rel="stylesheet" href="css/carrossel.css">
@@ -11,9 +12,11 @@
   <link rel="stylesheet" href="css/apoio.css">
   <link rel="stylesheet" href="css/footer.css">
 
+  <!-- Isso aqui me dá ícones como o de seta pra esquerda ou direita, entre outros se eu quiser implementar mais na frente -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/solid.css"/>
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/fontawesome.css"/>
 
+  <!-- Importei as fontes Bebas Neue e Roboto Condensed -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
@@ -22,6 +25,7 @@
 
 </head>
 <body>
+  <!-- INÍCIO HEADER -->
   <header>
     <a href="#Inicio" class="logo-container">
       <img src="assets/benjamin-voros-xhC8IzemTGU-unsplash.jpg" alt="foto da bola" class="logo"/>
@@ -37,13 +41,17 @@
       </ul>
     </nav>
   </header>
+  <!-- FIM HEADER -->
 
+  <!-- SECTION DE APRESENTAÇÃO DO EVENTO -->
   <section class="apresentacao" id="Inicio">
     <h1>Torneio de Vôlei</h1>
     <p>Residencial Lima Verde</p>
     <p>Sáb - 10/10 - 17:00</p>
   </section>
+  <!-- FIM SECTION APRESENTAÇÃO -->
 
+  <!-- SOBRE O EVENTO (não penso em colocar um texto mesmo pra isso) -->
   <section class="sobre" id="Sobre">
     <h1>Sobre o torneio</h1>
     
@@ -63,7 +71,9 @@
       </div>
     </div>
   </section>
+  <!-- FIM SOBRE -->
 
+  <!-- O TEMIDO CARROSSEL -->
   <div class="carrossel-content" id="Categorias">
     <h1>Categorias</h1>
 
@@ -101,7 +111,9 @@
       </div>
     </div>
   </div>
+  <!-- FIM DO CARROSSEL FINALMENTE -->
 
+  <!-- ABA PRA QUEM QUISER SE INSCREVER (não salva nem faz nada por enquanto) -->
   <section class="inscricao-container" id="Inscricao">
     <h1>Gostou? Inscreva-se já</h1>
 
@@ -139,7 +151,9 @@
       </button>
     </a>
   </section>
+  <!-- FIM ABA INSCRIÇÃO -->
 
+  <!-- ABA APOIADORES -->
   <section class="apoio-container" id="Apoio">
     <h1>Apoio</h1>
 
@@ -149,7 +163,9 @@
       <img src="assets/logopet-removebg-preview.png" alt="logo pet" class="apoio-imagem">
     </div>
   </section>
+  <!-- FIM ABA APOIADORES -->
 
+  <!-- INÍCIO FOOTER -->
   <footer>
     <div class="meus-links">
       <h3>Links úteis</h3>
@@ -175,6 +191,7 @@
       <h3>associacaodosmoradores@gmail.com</h3>
     </div>
   </footer>
+  <!-- FIM FOOTER -->
 
   <script src="js/carrossel.js"></script>
 </body>

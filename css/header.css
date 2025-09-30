@@ -5,12 +5,14 @@
   --cor-hover: #003F73;
 }
 
+/* reset básico pra garantir logo que não vai me atrapalhar depois */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+/* Na hora que clicar em um dos links da navbar ele faz uma transição bacaninha */
 html {
   scroll-behavior: smooth;
 }
@@ -20,6 +22,7 @@ body {
   margin-top: 70px;
 }
 
+/* o z-index 1000 garnte que ele vai ficar acima de qualquer elemento da página e não seja sobreposto */
 header {
   position: fixed;
   top: 0;

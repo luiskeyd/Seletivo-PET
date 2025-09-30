@@ -7,10 +7,11 @@ document.addEventListener("DOMContentLoaded", function() {
 
   let currentIndex = 0;
 
-  // Atualiza o carrossel com as imagens e os botões
+  // Atualiza o carrossel com as imagens e os pontinhos
   function updateCarrossel() {
     track.style.transform = `translate(-${currentIndex * 100}vw)`;
 
+    // isso aqui estiliza os pontinhos conforme as imagens vão trocando
     dots.forEach((dot, index) => {
       dot.classList.toggle('active', index === currentIndex);
     });
@@ -39,6 +40,7 @@ document.addEventListener("DOMContentLoaded", function() {
     });
   });
 
+  // a cada 4 segundos ele troca a imagem
   setInterval(() => {
     currentIndex = (currentIndex + 1) % slides.length;
     updateCarrossel();
